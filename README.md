@@ -19,9 +19,9 @@ This repository contains 2 Dockerfiles, a Linux container and a Windows containe
 To build the Windows image locally and publish to ACR, run the following command:
 
 ```docker
-docker build -f Dockerfile.windows -t dotnetcore-docs-hello-world-windows . 
-docker tag dotnetcore-docs-hello-world-windows <your_registry_name>.azurecr.io/dotnetcore-docs-hello-world-windows:latest
-docker push <your_registry_name>.azurecr.io/dotnetcore-docs-hello-world-windows:latest
+docker build -f Dockerfile.windows -t sirkuit4dedge-windows . 
+docker tag sirkuit4dedge-windows <your_registry_name>.azurecr.io/sirkuit4dedge-windows:latest
+docker push <your_registry_name>.azurecr.io/sirkuit4dedge-windows:latest
 ```
 
 ### Publish the Linux image to your Registry
@@ -29,9 +29,9 @@ docker push <your_registry_name>.azurecr.io/dotnetcore-docs-hello-world-windows:
 To build the Windows image locally and publish to ACR, run the following command:
 
 ```docker
-docker build -f Dockerfile.linux -t dotnetcore-docs-hello-world-linux . 
-docker tag dotnetcore-docs-hello-world-windows <your_registry_name>.azurecr.io/dotnetcore-docs-hello-world-linux:latest
-docker push <your_registry_name>.azurecr.io/dotnetcore-docs-hello-world-linux:latest
+docker build -f Dockerfile.linux -t sirkuit4dedge-linux . 
+docker tag sirkuit4dedge-windows <your_registry_name>.azurecr.io/sirkuit4dedge-linux:latest
+docker push <your_registry_name>.azurecr.io/sirkuit4dedge-linux:latest
 ```
 
 # Contributing
