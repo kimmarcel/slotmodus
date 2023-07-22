@@ -4,8 +4,8 @@ FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
 WORKDIR /source
 
 # Copy everything in this project and build app
-COPY . ./dotnetcore-docs-hello-world/
-WORKDIR /source/dotnetcore-docs-hello-world
+COPY . ./sirkuit4dedge/
+WORKDIR /source/sirkuit4dedge
 RUN dotnet publish -c release -o /app 
 
 # final stage/image
