@@ -2,7 +2,7 @@ using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace sirkuit4dedge.Pages;
+namespace pewe4dfd.Pages;
 
 [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
 [IgnoreAntiforgeryToken]
