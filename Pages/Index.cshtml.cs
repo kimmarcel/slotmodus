@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.Runtime.InteropServices;
 
-namespace pewe4dfd.Pages;
+namespace slotmodus.Pages;
 
 public class IndexModel : PageModel
 {

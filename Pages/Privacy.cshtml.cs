@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace pewe4dfd.Pages;
+namespace slotmodus.Pages;
 
 public class PrivacyModel : PageModel
 {
